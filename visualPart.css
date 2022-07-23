@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175) );
+    
+}
+
+.containerImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bx {
+    font-size: 30px;
+}
+
+.searchInput-container {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
+.search-input {
+    width: 50%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    padding-left: 10px;
+    background-color: aliceblue;   
+}
+
+.lens-button {
+    right: 18px;
+    border: none;
+    border-radius: 0 15px 15px 0; 
+    background-color: ghostwhite;
+}
+
+
+.picachu {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.go {
+    position: relative;
+    bottom: 40px;
+}
