@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175) );
+    
+}
+
+.containerImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bx {
+    font-size: 30px;
+    color: black;
+}
+
+
+
