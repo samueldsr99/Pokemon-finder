@@ -24,5 +24,34 @@ body {
     color: black;
 }
 
+.cardContainer {
+    background-color: rgb(252, 216, 10);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid 4px;
+    border-radius: 10px;
+    border-color: rgba(51, 32, 226, 0.904);
+    margin: 5px;
+}
 
+.items{
+    background: linear-gradient(rgb(161, 108, 46),rgb(252, 190, 119),rgb(161, 108, 46));
+    border: solid;
+    border-color: black;
+    margin: 5px;
+}
 
+.imgCards {
+    
+}
+
+.names {
+    text-align: center;
+}
+
+.backImg {
+    margin: 10px;
+    background-color: rgba(53, 53, 45, 0.726);
+    border-radius: 50%;
+}
