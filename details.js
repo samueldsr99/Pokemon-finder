@@ -1,15 +1,31 @@
-const fillPageData = (pokemonName) => {
-  const header = document.getElementById("details-header");
-  header.innerHTML = `This is the details page for ${pokemonName}`;
+const load = () => {
+  const input = document.getElementById("search-input").value
+  return srcPokemonByName(input)
+  .then (data => fillPageData(data))
+}
 
-  document.title = `Details for ${pokemonName}`;
+const fillPageData = (data) => {
+
+console.log(data)
+
+/*
+const header = document.getElementById("details-header")
+header.innerHTML = `This is the details page for ${data.name}`;
+
+document.title = `Details for ${data.name}`;
+*/
 };
 
+
+
+
+/*
 window.onload = () => {
   // Esto es para tener en una variable los query strings (por ejemplo ?name=...)
   const params = new URLSearchParams(window.location.search);
 
-  const pokemonName = params.get("name");
+  const data = params.get("name");
 
-  fillPageData(pokemonName);
+  fillPageData(data);
 };
+*/
