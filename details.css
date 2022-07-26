@@ -1,5 +1,4 @@
-body {display: flex;
-    justify-content: space-around;
+body {
     margin: 0px;
     padding: 0px;
     background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175) );

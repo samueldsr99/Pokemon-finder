@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Details</title>
+    <title>CardInfo</title>
+
+    <link rel="stylesheet" href="details.css">
 </head>
 <body>
-    <span id="details-header"></span>
-    <script src="./details.js"></script>
+    <div class="fatherCard">
+        <div class="items">
+            <div class="backImg">
+                <img onclick="load()" class="imgCards" src="" height="100px"> 
+            </div>
+            <p class="names"> </p>
+        </div>
+    </div>   
+
+<span id="details-header">Detalles</span> 
+
+
+<script src="./accessTheApi.js" ></script>
+<script src="./details.js" ></script>
 </body>
 </html>
