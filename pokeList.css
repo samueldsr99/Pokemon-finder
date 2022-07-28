@@ -49,7 +49,10 @@ body {
 }
 
 .names {
+    position: relative;
+    top: 20px;
     text-align: center;
+    color: black;
 }
 
 .backImg {

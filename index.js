@@ -1,4 +1,10 @@
 // Logica referente a index.html
+function start(e) {
+  if (e.keyCode == 13) {
+      load()
+  }
+}
+window.onkeypress = start;
 
 const load = () => {
   // en vez de input ponle inputValue, porque lo q guardas ahí es el valor del input

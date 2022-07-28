@@ -7,18 +7,33 @@
     <title>CardInfo</title>
 
     <link rel="stylesheet" href="details.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <button>
+        <a  href="./pokeList.html"><i class='bx bx-left-arrow-alt'></i></a>
+    </button>
+    
     <div class="fatherCard">
         <div class="items">
             <div class="backImg">
-                <img class="imgCards" src="" height="100px"> 
+                <img id="imgCards" class="imgCards" src=""> 
             </div>
-            <p class="names"> </p>
+            <p id="pokeName" class="names"> </p>
         </div>
     </div>   
 
-<span id="details-header">Detalles</span> 
+
+<p id="details-header" class="details-header" style="height: 20px" >Encabezado</p> 
+
+<div class="details_container">
+    <p id="hp" class="hp">HP</p>
+    <p id="attack" class="attack"> Attack</p>
+    <p id="defense" class="defense" >Defense</p>
+    <p id="speed" class="speed" >Speed</p>
+    <p id="special_defense" class="special_defense" >Special defence</p>
+    <p id="special_attack" class="special_attack" >Special attack</p>
+</div>
 
 
 <script src="./accessTheApi.js" ></script>
