@@ -41,7 +41,10 @@ body {
     margin-bottom: 10px;
 }
 .generatePokes-container {
-    border: solid 2px;
+    padding: 10px 16px;
+    border: solid 1px black;
+    text-decoration: none;
+    color: black;
     border-radius: 20px;
     background: red;
     font-size: 10px;
@@ -65,10 +68,6 @@ body {
     margin: 5px;
     width: 85px;
     height: 125px;
-}
-
-.imgCards {
-    
 }
 
 .names {
@@ -98,7 +97,7 @@ body {
 
 .pokeImg{
     height: 70px;
-    
+    width: 100%;
 }
 
 .pokeName {
@@ -115,4 +114,8 @@ p {
    margin-bottom: 0px;
    font-size: 10px;
    color: black;
+}
+
+.disabled {
+    background-color: gray;
 }

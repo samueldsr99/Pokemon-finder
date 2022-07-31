@@ -26,41 +26,17 @@
 <div class="filterPokemonContent" >
     <input id="filterPokemon" class="filterPokemon" type="text" placeholder="Search by name or id">
     
-    <button onclick="previous()" id="previous" class="generatePokes-container"> Back </button>
-    <button onclick="next()" id="next" class="generatePokes-container">Generate +</button>
+    <a id="prev-link" class="generatePokes-container" href="#">
+        Back
+    </a>
+    <a id="next-link" class="generatePokes-container" href="#">
+        Next
+    </a>
 </div>
 <!--<ol id="pokeres"></ol>-->
 
 
 <div id="cardContainer" class="cardContainer">
-
-    <a href="./details.html?name=bulbasaur">
-        <div class="items">
-            <div class="backImg">
-                <img class="imgCards" src="./IMG/Bulbasaur.png" height="70px"> 
-            </div>
-            <h4 class="names">  BULBASAUR </h4>
-        </div>
-    </a>
-
-    <a href="./details.html?name=skitty">
-        <div class="items">
-            <div class="backImg">
-                <img class="imgCards" src="./IMG/Skitty.png" height="70px">  
-            </div>
-            <h4 class="names">  SKITTY </h4>
-        </div>
-    </a>
-
-    <a href="./details.html?name=pikachu">
-        <div class="items">
-            <div class="backImg">
-                <img class="imgCards" src="./IMG/Pikachu.png" height="80px">   
-            </div>
-            <h4 class="names">  PIKACHU </h4>
-        </div>
-    </a>
-
 </div>
 
     <script src="./accessTheApi.js"> </script>
