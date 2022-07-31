@@ -37,7 +37,6 @@ window.onload = () => {
   // Esto es para tener en una variable los query strings (por ejemplo ?name=...)
   const params = new URLSearchParams(window.location.search);
 
-  // Aquí no estabas haciendo el fetch
   const pokemonName = params.get('name');
   
   srcPokemonByName(pokemonName).then((data) => fillPageData(data));
