@@ -6,9 +6,10 @@ const srcPokemonByName = (name) =>
 
 
 //estas dos variables son para establecer intervalos a requerir
-let limitValue = 10
+let limitValue = 5   
 let offset = 0
 
-const URL_API_NAMES =`https://pokeapi.co/api/v2/pokemon?limit=`+`${limitValue}` + `&offset=${offset}`;
-const loadPokeres = () =>
-  fetch(URL_API_NAMES).then(response => response.json());
+const URL_API_NAMES =`https://pokeapi.co/api/v2/pokemon?limit=`;
+const loadPokeres = () => fetch(URL_API_NAMES +`${limitValue}` + `&offset=${offset}`).then(response => response.json())
+
+

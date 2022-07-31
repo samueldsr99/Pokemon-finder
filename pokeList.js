@@ -1,18 +1,18 @@
 // Logica referente a pokeList.html
 
-//esto se ejecuta con el onclick() en el boton rojo generate +10
+//esto se ejecuta con el onclick() en el boton rojo generate +
 const generatePokes = () => {
 
-    loadPokeres().then(data => (data.results).forEach(pokemon => fetchPokeData(pokemon)))
+
+    loadPokeres().then(data => {(data.results).forEach(pokemon => fetchPokeData(pokemon))})
 
     const fetchPokeData = (pokemon) => {
         const URL = pokemon.url
         fetch(URL)
         .then(response => response.json())
         .then(pokeData => renderPokeData(pokeData))   
-    }
+    }    
 }
-
 
 const renderPokeData = (pokeData) => {
     let allPokemonContainer = document.getElementById('cardContainer');
@@ -45,7 +45,7 @@ const renderPokeData = (pokeData) => {
     linkToDetails.appendChild(pokeContainer)
 
     allPokemonContainer.appendChild(linkToDetails);//appending that pokeContainer div to the main div which will hold all the pokemon cards
-    
+
 }
 
 /*
@@ -55,6 +55,11 @@ const createTypes = (types, ul) => types.forEach((type) => {
     ul.append(typeLi)
     })
 */  
+
+const next = () => {
+       generatePokes()
+}
+
 
 
 
