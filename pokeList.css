@@ -24,24 +24,47 @@ body {
     color: black;
 }
 
-.cardContainer {
-    background-color: rgb(252, 216, 10);
+.filterPokemonContent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    border: solid 4px;
+    justify-content:space-around;
+    margin: 30px;
+    height: 30px;
+}
+
+.filterPokemon {
+    border: none;
+    outline: none;
+    border-radius:  15px; 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.generatePokes-container {
+    border: solid 2px;
+    border-radius: 20px;
+    background: red;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.cardContainer {
+    background-color: rgb(255, 244, 208);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 5px;
     border-radius: 10px;
-    border-color: rgba(51, 32, 226, 0.904);
-    margin: 5px;
+    border-color: rgba(32, 61, 226, 0.904);
 }
 
 .items{
     background: linear-gradient(rgb(161, 108, 46),rgb(252, 190, 119),rgb(161, 108, 46));
-    border: solid;
+    border: solid 2px;
     border-color: black;
-    margin: 30px;
-    width: 150px;
-    height: 200px;
+    margin: 5px;
+    width: 85px;
+    height: 125px;
 }
 
 .imgCards {
@@ -50,9 +73,9 @@ body {
 
 .names {
     position: relative;
-    top: 20px;
     text-align: center;
     color: black;
+    font-size: 0.8rem;
 }
 
 .backImg {
@@ -61,4 +84,35 @@ body {
     margin: 10px;
     background-color: rgba(53, 53, 45, 0.726);
     border-radius: 50%;
+}
+
+.newCards {
+    background: linear-gradient(rgb(161, 108, 46),rgb(252, 190, 119),rgb(161, 108, 46));
+    border: solid 2px;
+    border-color: black;
+    margin: 5px;
+    width: 85px;
+    height: 125px;
+    text-align: center;
+}
+
+.pokeImg{
+    height: 70px;
+    
+}
+
+.pokeName {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 10px;
+    color: black;
+}
+
+p {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-size: 10px;
+   color: black;
 }
